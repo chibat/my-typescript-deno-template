@@ -2,9 +2,9 @@
 image:
   file: .gitpod.Dockerfile
 
-tasks:
-  - command: |
-      deno run --allow-net --unstable webserver.ts
+#tasks:
+#  - command: |
+#      deno run --allow-net --unstable webserver.ts
 
 ports:
   - port: 8080
